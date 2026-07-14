@@ -1,0 +1,64 @@
+
+/* Main and Buttons */
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #272525;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main p {
+  text-align: center;
+  width: 80%;
+  text-align: center;
+  line-height: 1.4;
+  color: #ffffff;
+  font-style: inherit;
+  font-size: 5rem;
+  letter-spacing: 3px;
+}
+
+.mainBtns {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.orderBtn {
+  background-color: #f9c55f;
+  color: #222;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 32px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.orderBtn:hover {
+  box-shadow: 0 0 12px rgba(255, 226, 98, 0.6);
+  background-color: #f5a80e;
+  text-decoration: underline;
+}
+
+.menuBtn {
+  background-color: #2c2c2c;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 32px;
+  border: 3px solid orange;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menuBtn:hover {
+  border-color: #f5a80e;
+  text-decoration: underline;
+  box-shadow: 0 0 12px rgba(249, 197, 95, 0.6);
+}

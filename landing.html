@@ -1,119 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="landingMain.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coffee Shop</title>
-  <style>
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #222020;
-      padding: 0px 40px;
-      opacity: 100%;
-    }
-    .header-img {
-      width: 122px;
-      height: 88px;
-      margin: 10px;
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 20px;
-      background-color: #222020;
-    }
-
-    .nav-links a {
-      text-decoration: none;
-      color: #FFFFFF;
-      font-family: sans-serif;
-      cursor: pointer;
-      transition: 0.3s ease;
-    }
-
-    .nav-links a:hover {
-      color:orange ;
-      text-decoration: underline;
-    }
-
-    main {
-      display: flex;
-      flex-direction: column;
-      background-color: #222020;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
-
-    main p {
-      text-align: center;
-      width: 80%;
-      text-align: center;
-      line-height: 1.4 ;
-      color: #FFFFFF;
-      font-style:inherit;
-      font-size: 5rem;
-    }
-
-    .mainBtns {
-      display: flex;
-      gap: 50px;
-      align-items: center;
-    }
-
-    .orderBtn {
-      background-color: #F9C55F;
-      color: #222;
-      font-weight: 600;
-      font-size: 20px;  
-      letter-spacing:1px;
-      padding: 10px 12px;
-      border-radius: 32px;
-      cursor: pointer;
-      transition: 0.3s ease;
-    }
-
-    .orderBtn:hover{
-     box-shadow: 0 0 12px rgba(255, 226, 98, 0.6);
-      background-color: #f5a80e;
-      text-decoration: underline;
-    }
-
-    .menuBtn {
-      background-color:#2C2C2C;
-      color: #FFFFFF;
-      font-size: 20px;  
-      letter-spacing:1px;
-      padding: 10px 12px;
-      border-radius: 32px;
-      border: 3px solid orange;
-      font-weight: 600;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    .menuBtn:hover{
-      border-color: #f5a80e;
-      text-decoration: underline;
-      box-shadow: 0 0 12px rgba(249, 197, 95, 0.6);
-    }
-
-
-
-
-
-
-
-
-    footer {
-      display: flex;
-      background-color: #30261C;
-      gap: 50px;
-      color: #FFFFFF;
-      justify-content: space-evenly;
-    }
   </style>
 </head>
 <body>
@@ -138,7 +30,7 @@
       </div>
     </header>
 
-    <main>
+    <main class="landing-main">
         <p>The best Coffee in the stunning world</p>
 
         <div class="mainBtns">
@@ -156,7 +48,7 @@
 
       <h3>COFFEE</h3>
 
-      <div class="privacy">
+      <div class="links">
         <h2>PRIVACY</h2>
         <a href="">Terms of use</a>
         <a href="">Privacy of policy</a>
@@ -164,15 +56,15 @@
       </div>
 
 
-      <div class="services">
+      <div class="links">
         <h2>SERVICES</h2>
-        <a href="">SHop</a>
+        <a href="">Shop</a>
         <a href="">Order ahead</a>
         <a href="">Menu</a>
       </div>
 
 
-      <div class="about">
+      <div class="links">
         <h2>ABOUT US</h2>
         <a href="">Find a location</a>
         <a href="">About us</a>
@@ -180,7 +72,7 @@
       </div>
 
 
-      <div class="infotnation">
+      <div class="links">
         <h2>INFOTNATION</h2>
         <a href="">Pans & pricing</a>
         <a href="">Sell your products</a>
@@ -188,13 +80,13 @@
       </div>
 
 
-      <div class="social">
+      <div class="links">
         <h2>SOCIAL MEDIA</h2>
         <div class="social-links">
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
+          <a href="https://x.com/" target="_blank">  <img class="x-img" src="./Landing.Image/x-twitter-brands-solid-full.svg" width="30px" height="30px" alt="Visit our x page">  </a>
+          <a href="https://www.instagram.com/" target="_blank">   <img src="./Landing.Image/instagram-brands-solid-full.svg" width="30px" height="30px" alt="visit our instagram page">  </a>
+          <a href="https://www.facebook.com/" target="_blank">   <img src="./Landing.Image/facebook-brands-solid-full.svg" width="30px" height="30px" alt="visit our facebook page">   </a>
+          <a href="https://www.linkedin.com/in/yosef-ergano-a694a7266/" target="_blank">   <img src="./Landing.Image/linkedin-brands-solid-full.svg" width="30px" height="30px" alt="visist our linkedin page ">   </a>
         </div>
       </div>
 
