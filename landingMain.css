@@ -1,4 +1,3 @@
-
 /* Main and Buttons */
 main {
   display: flex;
@@ -25,7 +24,6 @@ main p {
   gap: 50px;
   align-items: center;
 }
-
 .orderBtn {
   background-color: #f9c55f;
   color: #222;
@@ -36,7 +34,6 @@ main p {
   border-radius: 32px;
   cursor: pointer;
   transition: 0.3s ease;
-  
 }
 
 .orderBtn:hover {

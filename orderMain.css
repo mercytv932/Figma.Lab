@@ -9,6 +9,9 @@ section {
   background-color: #e2d9c8;
   overflow: hidden;
   box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .container img {
@@ -22,12 +25,17 @@ section {
 
 .card-content {
   padding: 0 20px 20px;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .card-content h3 {
   font-size: 2.2rem;
   font-weight: 700;
   margin: 0;
+  min-height: 84px;
 }
 
 .card-content p {
@@ -39,6 +47,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  margin-top: auto;
 }
 
 .card-footer h5 {
@@ -46,17 +56,20 @@ section {
   font-size: 1.6rem;
 }
 
-.card-footer button {
+.card-footer .order-btn {
+  display: inline-block;
   background: #2a0000;
   color: white;
+  text-decoration: none;
   border: none;
   font-size: 16px;
   padding: 12px 22px;
   border-radius: 8px;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 
-.card-footer button:hover {
+.card-footer .order-btn:hover {
   background-color: #3a0000;
   box-shadow: 0 6px 16px rgba(42, 0, 0, 0.3);
 }
