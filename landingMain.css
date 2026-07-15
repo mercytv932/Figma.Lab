@@ -34,6 +34,7 @@ main p {
   border-radius: 32px;
   cursor: pointer;
   transition: 0.3s ease;
+  text-decoration: none;
 }
 
 .orderBtn:hover {
@@ -53,6 +54,7 @@ main p {
   font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .menuBtn:hover {
